@@ -34,7 +34,10 @@ typedef Q_STRICT_STRUCTURE (
 		_bubbleSize.width  /= (CGFloat)_size.x;
 		_bubbleSize.height /= (_size.y - 1) * Y_INCREMENT + 1.0;
 
-		for (y = 0, point.y = 0.0; y < _size.y; y++, point.y += _bubbleSize.height * Y_INCREMENT)
+		for (	y = 0, point.y = 0.0;
+			y < _size.y;
+			y++, point.y += _bubbleSize.height * Y_INCREMENT
+		)
 			{
 			if (y & 1) for (
 				x = 0, point.x = _bubbleSize.width / 2.0;
@@ -70,7 +73,10 @@ typedef Q_STRICT_STRUCTURE (
 
 		for (; n != e; n++)
 			{
-			delta = NSMakePoint(n->point.x + radius - eventPoint.x, n->point.y + radius - eventPoint.y);
+			delta = NSMakePoint
+				(n->point.x + radius - eventPoint.x,
+				 n->point.y + radius - eventPoint.y);
+
 			if (hypot(delta.x, delta.y) <= radius) return n;
 			}
 
@@ -154,6 +160,7 @@ typedef Q_STRICT_STRUCTURE (
 
 	- (void) dealloc
 		{
+		NSLog(@"dealloc");
 		free(_bubbles);
 		for (NSUInteger index = 9; index;) [_colors[--index] release];
 		[super dealloc];
@@ -219,7 +226,8 @@ typedef Q_STRICT_STRUCTURE (
 			if (n->color)
 				{
 				[path appendBezierPathWithOvalInRect: NSMakeRect
-					(n->point.x + 0.5, n->point.y + 0.5, _bubbleSize.width - 1.0, _bubbleSize.height - 1.0)];
+					(n->point.x + 0.5, n->point.y + 0.5,
+					 _bubbleSize.width - 1.0, _bubbleSize.height - 1.0)];
 
 				[path stroke];
 				[path removeAllPoints];

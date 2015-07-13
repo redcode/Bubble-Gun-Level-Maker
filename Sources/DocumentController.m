@@ -197,7 +197,7 @@ Released under the terms of the GNU General Public License v3. */
 
 	- (void) alertDidEnd: (NSAlert *) alert
 		 returnCode:  (NSInteger) returnCode
-		 contextInfo: (void *)	  contextInfo
+		 contextInfo: (void    *) contextInfo
 		{
 		if (returnCode == NSAlertDefaultReturn)
 			{
@@ -236,7 +236,7 @@ Released under the terms of the GNU General Public License v3. */
 
 
 	- (NSSize) windowWillResize: (NSWindow *) window
-		   toSize:	     (NSSize)	  size
+		   toSize:	     (NSSize	) size
 		{
 		Q2D borderSize	     = q_2d_subtract(Q(window.frame.size), Q(((NSView *)window.contentView).bounds.size));
 		Q2D maximumFieldSize = q_2d_subtract(Q(window.screen.visibleFrame.size), borderSize);

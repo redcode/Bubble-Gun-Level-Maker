@@ -11,8 +11,8 @@ In order to compile, you need to install the [Q API](http://github.com/redcode/Q
 
 ### History
 
-* __v1.1__ _(2013-04-27)_
+* __v1.1__ _(2014-12-09)_
     * Minor improvements and bug fixes.
 
-* __v1.0__ _(2013-02-12)_
+* __v1.0__ _(2014-11-06)_
     * Initial release.
