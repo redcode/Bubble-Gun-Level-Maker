@@ -136,21 +136,16 @@ typedef Q_STRICT_STRUCTURE (
 		NSUInteger index, dataSize = [data length];
 		BGL *BGL = (void *)[data bytes];
 
-		NSLog(@"%@", data);
-
 		if (dataSize < 2 || BGL->width * BGL->height - BGL->height / 2 != dataSize - 2)
 			goto error;
 
-		index = dataSize - 2;
-
-		while (index) if (BGL->bubbles[--index] > 7) goto error;
+		for (index = dataSize - 2; index;) if (BGL->bubbles[--index] > 8) goto error;
 
 		if ((self = [self initWithFrame: frame]))
 			{
 			[self prepareForSize: q_2d_value(SIZE)((qsize)BGL->width, (qsize)BGL->height)];
 			[self updateGeometry];
-			index = dataSize - 2;
-			while (index--) _bubbles[index].color = BGL->bubbles[index];
+			for (index = dataSize - 2; index--;) _bubbles[index].color = BGL->bubbles[index];
 			}
 
 		return self;
@@ -160,7 +155,6 @@ typedef Q_STRICT_STRUCTURE (
 
 	- (void) dealloc
 		{
-		NSLog(@"dealloc");
 		free(_bubbles);
 		for (NSUInteger index = 9; index;) [_colors[--index] release];
 		[super dealloc];
