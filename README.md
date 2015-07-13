@@ -11,6 +11,11 @@ In order to compile, you need to install the [Q API](http://github.com/redcode/Q
 
 ### History
 
+* __[v1.2](http://github.com/redcode/BubbleGun-Level-Maker/releases/tag/v1.2)__ _(2015-07-13)_
+	* Adapted to the current version of Q.
+	* Fixed a bug related to the opening of documents.
+	* The field's circles are painted with borders now.
+
 * __v1.1__ _(2014-12-09)_
     * Minor improvements and bug fixes.
 
