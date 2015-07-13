@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6400FD2A177225480028203C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6400FD2C177225480028203C /* Localizable.strings */; };
+		6419FAF1177225FD0036E12D /* DocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6419FAF0177225FD0036E12D /* DocumentController.m */; };
+		643FAE4A17722AA800BC87F3 /* SizeInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = 643FAE4C17722AA800BC87F3 /* SizeInput.xib */; };
+		646BB9741772BBD900CC1C0D /* BubbleGun Level Maker.icns in Resources */ = {isa = PBXBuildFile; fileRef = 646BB9731772BBD900CC1C0D /* BubbleGun Level Maker.icns */; };
+		64DA6BDF176E3C0200934E00 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DA6BDE176E3C0200934E00 /* Cocoa.framework */; };
+		64DA6BE9176E3C0200934E00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64DA6BE7176E3C0200934E00 /* InfoPlist.strings */; };
+		64DA6BEB176E3C0200934E00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DA6BEA176E3C0200934E00 /* main.m */; };
+		64DA6BF2176E3C0200934E00 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DA6BF1176E3C0200934E00 /* MainController.m */; };
+		64DA6BF5176E3C0200934E00 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64DA6BF3176E3C0200934E00 /* MainMenu.xib */; };
+		64DA6BFD176E3C7F00934E00 /* Field.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DA6BFC176E3C7F00934E00 /* Field.m */; };
+		64DA6C0A176E6EF400934E00 /* blue.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 64DA6C02176E6EF400934E00 /* blue.pdf */; };
+		64DA6C0B176E6EF400934E00 /* white.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 64DA6C03176E6EF400934E00 /* white.pdf */; };
+		64DA6C0C176E6EF400934E00 /* purple.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 64DA6C04176E6EF400934E00 /* purple.pdf */; };
+		64DA6C0D176E6EF400934E00 /* yellow.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 64DA6C05176E6EF400934E00 /* yellow.pdf */; };
+		64DA6C0F176E6EF400934E00 /* black.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 64DA6C07176E6EF400934E00 /* black.pdf */; };
+		64DA6C10176E6EF400934E00 /* green.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 64DA6C08176E6EF400934E00 /* green.pdf */; };
+		64DA6C12176E700600934E00 /* red.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 64DA6C11176E700600934E00 /* red.pdf */; };
+		64DA6C14176E701B00934E00 /* orange.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 64DA6C13176E701B00934E00 /* orange.pdf */; };
+		64DA6C19176EB39300934E00 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64DA6C18176EB39300934E00 /* Document.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6400FD2B177225480028203C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6406BC6C17742486001A0CAB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6416B0461A0C0C3700204ADE /* BubbleGun Level Maker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "BubbleGun Level Maker.entitlements"; sourceTree = "<group>"; };
+		6419FAF0177225FD0036E12D /* DocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentController.m; sourceTree = "<group>"; };
+		643FAE4817722A9900BC87F3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		643FAE4917722AA200BC87F3 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		643FAE4B17722AA800BC87F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SizeInput.xib; sourceTree = "<group>"; };
+		643FAE4D17722AAF00BC87F3 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/SizeInput.xib; sourceTree = "<group>"; };
+		646BB9731772BBD900CC1C0D /* BubbleGun Level Maker.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "BubbleGun Level Maker.icns"; sourceTree = "<group>"; };
+		64DA6BDB176E3C0200934E00 /* BubbleGun Level Maker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BubbleGun Level Maker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64DA6BDE176E3C0200934E00 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		64DA6BE1176E3C0200934E00 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		64DA6BE3176E3C0200934E00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64DA6BE6176E3C0200934E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64DA6BE8176E3C0200934E00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64DA6BEA176E3C0200934E00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64DA6BEC176E3C0200934E00 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		64DA6BF0176E3C0200934E00 /* MainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		64DA6BF1176E3C0200934E00 /* MainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		64DA6BF4176E3C0200934E00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		64DA6BFB176E3C7F00934E00 /* Field.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Field.h; sourceTree = "<group>"; };
+		64DA6BFC176E3C7F00934E00 /* Field.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Field.m; sourceTree = "<group>"; };
+		64DA6C02176E6EF400934E00 /* blue.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = blue.pdf; sourceTree = "<group>"; };
+		64DA6C03176E6EF400934E00 /* white.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = white.pdf; sourceTree = "<group>"; };
+		64DA6C04176E6EF400934E00 /* purple.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = purple.pdf; sourceTree = "<group>"; };
+		64DA6C05176E6EF400934E00 /* yellow.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = yellow.pdf; sourceTree = "<group>"; };
+		64DA6C07176E6EF400934E00 /* black.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = black.pdf; sourceTree = "<group>"; };
+		64DA6C08176E6EF400934E00 /* green.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = green.pdf; sourceTree = "<group>"; };
+		64DA6C11176E700600934E00 /* red.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = red.pdf; sourceTree = "<group>"; };
+		64DA6C13176E701B00934E00 /* orange.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = orange.pdf; sourceTree = "<group>"; };
+		64DA6C15176EB29500934E00 /* DocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentController.h; sourceTree = "<group>"; };
+		64DA6C18176EB39300934E00 /* Document.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Document.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64DA6BD8176E3C0200934E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DA6BDF176E3C0200934E00 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6419FAF2177227140036E12D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				64DA6C02176E6EF400934E00 /* blue.pdf */,
+				64DA6C13176E701B00934E00 /* orange.pdf */,
+				64DA6C11176E700600934E00 /* red.pdf */,
+				64DA6C03176E6EF400934E00 /* white.pdf */,
+				64DA6C04176E6EF400934E00 /* purple.pdf */,
+				64DA6C05176E6EF400934E00 /* yellow.pdf */,
+				64DA6C07176E6EF400934E00 /* black.pdf */,
+				64DA6C08176E6EF400934E00 /* green.pdf */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		64DA6BD2176E3C0100934E00 = {
+			isa = PBXGroup;
+			children = (
+				6416B0461A0C0C3700204ADE /* BubbleGun Level Maker.entitlements */,
+				646BB9731772BBD900CC1C0D /* BubbleGun Level Maker.icns */,
+				64DA6BE4176E3C0200934E00 /* Sources */,
+				64DA6BE5176E3C0200934E00 /* Resources */,
+				64DA6BDD176E3C0200934E00 /* Frameworks */,
+				64DA6BDC176E3C0200934E00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64DA6BDC176E3C0200934E00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64DA6BDB176E3C0200934E00 /* BubbleGun Level Maker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64DA6BDD176E3C0200934E00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64DA6BDE176E3C0200934E00 /* Cocoa.framework */,
+				64DA6BE0176E3C0200934E00 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64DA6BE0176E3C0200934E00 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64DA6BE1176E3C0200934E00 /* AppKit.framework */,
+				64DA6BE3176E3C0200934E00 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		64DA6BE4176E3C0200934E00 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				64DA6BEC176E3C0200934E00 /* Prefix.pch */,
+				64DA6BEA176E3C0200934E00 /* main.m */,
+				64DA6BF0176E3C0200934E00 /* MainController.h */,
+				64DA6BF1176E3C0200934E00 /* MainController.m */,
+				64DA6C15176EB29500934E00 /* DocumentController.h */,
+				6419FAF0177225FD0036E12D /* DocumentController.m */,
+				64DA6BFB176E3C7F00934E00 /* Field.h */,
+				64DA6BFC176E3C7F00934E00 /* Field.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		64DA6BE5176E3C0200934E00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6419FAF2177227140036E12D /* Images */,
+				64DA6C1C176EB3B900934E00 /* Property Lists */,
+				64DA6C1B176EB3B400934E00 /* Strings */,
+				64DA6C1A176EB3A900934E00 /* XIBs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		64DA6C1A176EB3A900934E00 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				64DA6BF3176E3C0200934E00 /* MainMenu.xib */,
+				64DA6C18176EB39300934E00 /* Document.xib */,
+				643FAE4C17722AA800BC87F3 /* SizeInput.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		64DA6C1B176EB3B400934E00 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				64DA6BE7176E3C0200934E00 /* InfoPlist.strings */,
+				6400FD2C177225480028203C /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		64DA6C1C176EB3B900934E00 /* Property Lists */ = {
+			isa = PBXGroup;
+			children = (
+				64DA6BE6176E3C0200934E00 /* Info.plist */,
+			);
+			path = "Property Lists";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64DA6BDA176E3C0200934E00 /* BubbleGun Level Maker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64DA6BF8176E3C0200934E00 /* Build configuration list for PBXNativeTarget "BubbleGun Level Maker" */;
+			buildPhases = (
+				64DA6BD7176E3C0200934E00 /* Sources */,
+				64DA6BD8176E3C0200934E00 /* Frameworks */,
+				64C9EA491A36CEB800B76B25 /* ShellScript */,
+				64DA6BD9176E3C0200934E00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BubbleGun Level Maker";
+			productName = "BubbleGun Level Maker";
+			productReference = 64DA6BDB176E3C0200934E00 /* BubbleGun Level Maker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64DA6BD3176E3C0100934E00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "RedCode Software";
+				TargetAttributes = {
+					64DA6BDA176E3C0200934E00 = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 64DA6BD6176E3C0100934E00 /* Build configuration list for PBXProject "BubbleGun Level Maker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+			);
+			mainGroup = 64DA6BD2176E3C0100934E00;
+			productRefGroup = 64DA6BDC176E3C0200934E00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64DA6BDA176E3C0200934E00 /* BubbleGun Level Maker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64DA6BD9176E3C0200934E00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DA6BE9176E3C0200934E00 /* InfoPlist.strings in Resources */,
+				64DA6BF5176E3C0200934E00 /* MainMenu.xib in Resources */,
+				64DA6C0A176E6EF400934E00 /* blue.pdf in Resources */,
+				64DA6C0B176E6EF400934E00 /* white.pdf in Resources */,
+				64DA6C0C176E6EF400934E00 /* purple.pdf in Resources */,
+				64DA6C0D176E6EF400934E00 /* yellow.pdf in Resources */,
+				64DA6C0F176E6EF400934E00 /* black.pdf in Resources */,
+				64DA6C10176E6EF400934E00 /* green.pdf in Resources */,
+				64DA6C12176E700600934E00 /* red.pdf in Resources */,
+				64DA6C14176E701B00934E00 /* orange.pdf in Resources */,
+				64DA6C19176EB39300934E00 /* Document.xib in Resources */,
+				643FAE4A17722AA800BC87F3 /* SizeInput.xib in Resources */,
+				6400FD2A177225480028203C /* Localizable.strings in Resources */,
+				646BB9741772BBD900CC1C0D /* BubbleGun Level Maker.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64C9EA491A36CEB800B76B25 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/Resources/Property Lists/Info.plist\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/Resources/Property Lists/Info.plist\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64DA6BD7176E3C0200934E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DA6BEB176E3C0200934E00 /* main.m in Sources */,
+				64DA6BF2176E3C0200934E00 /* MainController.m in Sources */,
+				64DA6BFD176E3C7F00934E00 /* Field.m in Sources */,
+				6419FAF1177225FD0036E12D /* DocumentController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6400FD2C177225480028203C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6400FD2B177225480028203C /* en */,
+				643FAE4817722A9900BC87F3 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		643FAE4C17722AA800BC87F3 /* SizeInput.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				643FAE4B17722AA800BC87F3 /* en */,
+				643FAE4D17722AAF00BC87F3 /* es */,
+			);
+			name = SizeInput.xib;
+			sourceTree = "<group>";
+		};
+		64DA6BE7176E3C0200934E00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64DA6BE8176E3C0200934E00 /* en */,
+				6406BC6C17742486001A0CAB /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64DA6BF3176E3C0200934E00 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64DA6BF4176E3C0200934E00 /* en */,
+				643FAE4917722AA200BC87F3 /* es */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64DA6BF6176E3C0200934E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		64DA6BF7176E3C0200934E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Release;
+		};
+		64DA6BF9176E3C0200934E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "BubbleGun Level Maker.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/Prefix.pch;
+				INFOPLIST_FILE = "Resources/Property Lists/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64DA6BFA176E3C0200934E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "BubbleGun Level Maker.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/Prefix.pch;
+				INFOPLIST_FILE = "Resources/Property Lists/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64DA6BD6176E3C0100934E00 /* Build configuration list for PBXProject "BubbleGun Level Maker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64DA6BF6176E3C0200934E00 /* Debug */,
+				64DA6BF7176E3C0200934E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64DA6BF8176E3C0200934E00 /* Build configuration list for PBXNativeTarget "BubbleGun Level Maker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64DA6BF9176E3C0200934E00 /* Debug */,
+				64DA6BFA176E3C0200934E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64DA6BD3176E3C0100934E00 /* Project object */;
+}
