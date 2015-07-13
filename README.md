@@ -4,7 +4,7 @@ Released under the terms of the [GNU General Public License v3](http://www.gnu.o
 
 ![alt tag](Screenshots/Level 5.png)
 ### What is BubbleGun Level Maker?
-It is the level editor of my game BubbleGun.
+It is a level editor for BubbleGun.
 
 ### Notes
 In order to compile, you need to install the [Q API](http://github.com/redcode/Q) in "/usr/local/include/Q".
