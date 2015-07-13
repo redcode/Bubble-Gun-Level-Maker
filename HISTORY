@@ -1,3 +1,17 @@
+v1.2 (2015-07-13)
+=================
+
+(en)
+- Adapted to the current version of Q.
+- Fixed a bug related to the opening of documents.
+- The field's circles are painted with borders now.
+
+(es)
+- Adaptado a la versión actual de Q.
+- Corregido un error relacionado con la apertura de documentos.
+- Los círculos del mapa se pintan ahora con bordes.
+
+
 v1.1 (2014-12-09)
 =================
 
