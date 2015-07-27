@@ -1,13 +1,13 @@
-# BubbleGun Level Maker
+# Bubble Gun Level Maker
 Copyright © 2014-2015 Manuel Sainz de Baranda y Goñi.  
 Released under the terms of the [GNU General Public License v3](http://www.gnu.org/copyleft/gpl.html).
 
-![alt tag](Screenshots/Level 5.png)
-### What is BubbleGun Level Maker?
-It is a level editor for BubbleGun.
+![alt tag](screenshots/Level 5.png)
+### What is Bubble Gun Level Maker?
+It is a level editor for Bubble Gun.
 
 ### Notes
-In order to compile, you need to install the [Q API](http://github.com/redcode/Q) in "/usr/local/include/Q".
+In order to compile, you need to install the [Q API](http://github.com/redcode/Q) in _"/usr/local/include/Q"_.
 
 ### History
 

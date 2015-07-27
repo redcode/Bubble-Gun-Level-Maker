@@ -10,7 +10,7 @@
 		6400FD2A177225480028203C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6400FD2C177225480028203C /* Localizable.strings */; };
 		6419FAF1177225FD0036E12D /* DocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6419FAF0177225FD0036E12D /* DocumentController.m */; };
 		643FAE4A17722AA800BC87F3 /* SizeInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = 643FAE4C17722AA800BC87F3 /* SizeInput.xib */; };
-		646BB9741772BBD900CC1C0D /* BubbleGun Level Maker.icns in Resources */ = {isa = PBXBuildFile; fileRef = 646BB9731772BBD900CC1C0D /* BubbleGun Level Maker.icns */; };
+		646BB9741772BBD900CC1C0D /* Bubble Gun Level Maker.icns in Resources */ = {isa = PBXBuildFile; fileRef = 646BB9731772BBD900CC1C0D /* Bubble Gun Level Maker.icns */; };
 		64DA6BDF176E3C0200934E00 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DA6BDE176E3C0200934E00 /* Cocoa.framework */; };
 		64DA6BE9176E3C0200934E00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64DA6BE7176E3C0200934E00 /* InfoPlist.strings */; };
 		64DA6BEB176E3C0200934E00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DA6BEA176E3C0200934E00 /* main.m */; };
@@ -31,21 +31,21 @@
 /* Begin PBXFileReference section */
 		6400FD2B177225480028203C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6406BC6C17742486001A0CAB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6416B0461A0C0C3700204ADE /* BubbleGun Level Maker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "BubbleGun Level Maker.entitlements"; sourceTree = "<group>"; };
+		6416B0461A0C0C3700204ADE /* Bubble Gun Level Maker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Bubble Gun Level Maker.entitlements"; sourceTree = "<group>"; };
 		6419FAF0177225FD0036E12D /* DocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentController.m; sourceTree = "<group>"; };
 		643FAE4817722A9900BC87F3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		643FAE4917722AA200BC87F3 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		643FAE4B17722AA800BC87F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SizeInput.xib; sourceTree = "<group>"; };
 		643FAE4D17722AAF00BC87F3 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/SizeInput.xib; sourceTree = "<group>"; };
-		646BB9731772BBD900CC1C0D /* BubbleGun Level Maker.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "BubbleGun Level Maker.icns"; sourceTree = "<group>"; };
-		64DA6BDB176E3C0200934E00 /* BubbleGun Level Maker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BubbleGun Level Maker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		646BB9731772BBD900CC1C0D /* Bubble Gun Level Maker.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Bubble Gun Level Maker.icns"; sourceTree = "<group>"; };
+		64DA6BDB176E3C0200934E00 /* Bubble Gun Level Maker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bubble Gun Level Maker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64DA6BDE176E3C0200934E00 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		64DA6BE1176E3C0200934E00 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		64DA6BE3176E3C0200934E00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		64DA6BE6176E3C0200934E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64DA6BE8176E3C0200934E00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		64DA6BEA176E3C0200934E00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		64DA6BEC176E3C0200934E00 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		64DA6BEC176E3C0200934E00 /* prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
 		64DA6BF0176E3C0200934E00 /* MainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
 		64DA6BF1176E3C0200934E00 /* MainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
 		64DA6BF4176E3C0200934E00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -87,14 +87,15 @@
 				64DA6C07176E6EF400934E00 /* black.pdf */,
 				64DA6C08176E6EF400934E00 /* green.pdf */,
 			);
-			path = Images;
+			name = Images;
+			path = images;
 			sourceTree = "<group>";
 		};
 		64DA6BD2176E3C0100934E00 = {
 			isa = PBXGroup;
 			children = (
-				6416B0461A0C0C3700204ADE /* BubbleGun Level Maker.entitlements */,
-				646BB9731772BBD900CC1C0D /* BubbleGun Level Maker.icns */,
+				6416B0461A0C0C3700204ADE /* Bubble Gun Level Maker.entitlements */,
+				646BB9731772BBD900CC1C0D /* Bubble Gun Level Maker.icns */,
 				64DA6BE4176E3C0200934E00 /* Sources */,
 				64DA6BE5176E3C0200934E00 /* Resources */,
 				64DA6BDD176E3C0200934E00 /* Frameworks */,
@@ -105,7 +106,7 @@
 		64DA6BDC176E3C0200934E00 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				64DA6BDB176E3C0200934E00 /* BubbleGun Level Maker.app */,
+				64DA6BDB176E3C0200934E00 /* Bubble Gun Level Maker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,7 +132,7 @@
 		64DA6BE4176E3C0200934E00 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				64DA6BEC176E3C0200934E00 /* Prefix.pch */,
+				64DA6BEC176E3C0200934E00 /* prefix.pch */,
 				64DA6BEA176E3C0200934E00 /* main.m */,
 				64DA6BF0176E3C0200934E00 /* MainController.h */,
 				64DA6BF1176E3C0200934E00 /* MainController.m */,
@@ -140,7 +141,8 @@
 				64DA6BFB176E3C7F00934E00 /* Field.h */,
 				64DA6BFC176E3C7F00934E00 /* Field.m */,
 			);
-			path = Sources;
+			name = Sources;
+			path = sources;
 			sourceTree = "<group>";
 		};
 		64DA6BE5176E3C0200934E00 /* Resources */ = {
@@ -149,19 +151,20 @@
 				6419FAF2177227140036E12D /* Images */,
 				64DA6C1C176EB3B900934E00 /* Property Lists */,
 				64DA6C1B176EB3B400934E00 /* Strings */,
-				64DA6C1A176EB3A900934E00 /* XIBs */,
+				64DA6C1A176EB3A900934E00 /* UI */,
 			);
-			path = Resources;
+			name = Resources;
+			path = resources;
 			sourceTree = "<group>";
 		};
-		64DA6C1A176EB3A900934E00 /* XIBs */ = {
+		64DA6C1A176EB3A900934E00 /* UI */ = {
 			isa = PBXGroup;
 			children = (
 				64DA6BF3176E3C0200934E00 /* MainMenu.xib */,
 				64DA6C18176EB39300934E00 /* Document.xib */,
 				643FAE4C17722AA800BC87F3 /* SizeInput.xib */,
 			);
-			path = XIBs;
+			path = UI;
 			sourceTree = "<group>";
 		};
 		64DA6C1B176EB3B400934E00 /* Strings */ = {
@@ -170,7 +173,8 @@
 				64DA6BE7176E3C0200934E00 /* InfoPlist.strings */,
 				6400FD2C177225480028203C /* Localizable.strings */,
 			);
-			path = Strings;
+			name = Strings;
+			path = strings;
 			sourceTree = "<group>";
 		};
 		64DA6C1C176EB3B900934E00 /* Property Lists */ = {
@@ -178,15 +182,16 @@
 			children = (
 				64DA6BE6176E3C0200934E00 /* Info.plist */,
 			);
-			path = "Property Lists";
+			name = "Property Lists";
+			path = "property lists";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		64DA6BDA176E3C0200934E00 /* BubbleGun Level Maker */ = {
+		64DA6BDA176E3C0200934E00 /* Bubble Gun Level Maker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64DA6BF8176E3C0200934E00 /* Build configuration list for PBXNativeTarget "BubbleGun Level Maker" */;
+			buildConfigurationList = 64DA6BF8176E3C0200934E00 /* Build configuration list for PBXNativeTarget "Bubble Gun Level Maker" */;
 			buildPhases = (
 				64DA6BD7176E3C0200934E00 /* Sources */,
 				64DA6BD8176E3C0200934E00 /* Frameworks */,
@@ -197,9 +202,9 @@
 			);
 			dependencies = (
 			);
-			name = "BubbleGun Level Maker";
+			name = "Bubble Gun Level Maker";
 			productName = "BubbleGun Level Maker";
-			productReference = 64DA6BDB176E3C0200934E00 /* BubbleGun Level Maker.app */;
+			productReference = 64DA6BDB176E3C0200934E00 /* Bubble Gun Level Maker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -220,7 +225,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 64DA6BD6176E3C0100934E00 /* Build configuration list for PBXProject "BubbleGun Level Maker" */;
+			buildConfigurationList = 64DA6BD6176E3C0100934E00 /* Build configuration list for PBXProject "Bubble Gun Level Maker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -233,7 +238,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				64DA6BDA176E3C0200934E00 /* BubbleGun Level Maker */,
+				64DA6BDA176E3C0200934E00 /* Bubble Gun Level Maker */,
 			);
 		};
 /* End PBXProject section */
@@ -256,7 +261,7 @@
 				64DA6C19176EB39300934E00 /* Document.xib in Resources */,
 				643FAE4A17722AA800BC87F3 /* SizeInput.xib in Resources */,
 				6400FD2A177225480028203C /* Localizable.strings in Resources */,
-				646BB9741772BBD900CC1C0D /* BubbleGun Level Maker.icns in Resources */,
+				646BB9741772BBD900CC1C0D /* Bubble Gun Level Maker.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +349,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -380,6 +386,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -400,12 +407,12 @@
 		64DA6BF9176E3C0200934E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "BubbleGun Level Maker.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Bubble Gun Level Maker.entitlements";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Sources/Prefix.pch;
-				INFOPLIST_FILE = "Resources/Property Lists/Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = sources/prefix.pch;
+				INFOPLIST_FILE = "resources/property lists/Info.plist";
+				PRODUCT_NAME = "Bubble Gun Level Maker";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -413,12 +420,12 @@
 		64DA6BFA176E3C0200934E00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "BubbleGun Level Maker.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Bubble Gun Level Maker.entitlements";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Sources/Prefix.pch;
-				INFOPLIST_FILE = "Resources/Property Lists/Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = sources/prefix.pch;
+				INFOPLIST_FILE = "resources/property lists/Info.plist";
+				PRODUCT_NAME = "Bubble Gun Level Maker";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -426,7 +433,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		64DA6BD6176E3C0100934E00 /* Build configuration list for PBXProject "BubbleGun Level Maker" */ = {
+		64DA6BD6176E3C0100934E00 /* Build configuration list for PBXProject "Bubble Gun Level Maker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				64DA6BF6176E3C0200934E00 /* Debug */,
@@ -435,7 +442,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64DA6BF8176E3C0200934E00 /* Build configuration list for PBXNativeTarget "BubbleGun Level Maker" */ = {
+		64DA6BF8176E3C0200934E00 /* Build configuration list for PBXNativeTarget "Bubble Gun Level Maker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				64DA6BF9176E3C0200934E00 /* Debug */,
