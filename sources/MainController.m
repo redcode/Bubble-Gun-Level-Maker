@@ -9,7 +9,7 @@ Released under the terms of the GNU General Public License v3. */
 
 #import "MainController.h"
 #import "DocumentController.h"
-#import <Q/functions/base/Q2DValue.h>
+#import <Z/functions/base/Z2DValue.h>
 
 #define kDefaultDocumentXSize 8
 #define kDefaultDocumentYSize 11
@@ -131,7 +131,7 @@ Released under the terms of the GNU General Public License v3. */
 	- (IBAction) newDocument: (id) sender
 		{
 		DocumentController *controller = [[DocumentController alloc]
-			initWithFieldSize: q_2d_value(SIZE)(kDefaultDocumentXSize, kDefaultDocumentYSize)];
+			initWithFieldSize: z_2d_type(SIZE)(kDefaultDocumentXSize, kDefaultDocumentYSize)];
 
 		[self registerDocumentController: controller];
 		[controller release];

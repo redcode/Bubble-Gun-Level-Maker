@@ -8,34 +8,34 @@ Copyright © 2014-2015 Manuel Sainz de Baranda y Goñi.
 Released under the terms of the GNU General Public License v3. */
 
 #import <Cocoa/Cocoa.h>
-#import <Q/types/base.h>
+#import <Z/types/base.h>
 
-typedef struct {NSPoint point; quint8 color;} Node;
+typedef struct {NSPoint point; zuint8 color;} Node;
 
 @interface Field : NSView {
-	Q2DSize	 _size;
+	Z2DSize	 _size;
 	Node*	 _bubbles;
 	NSSize	 _bubbleSize;
 	NSColor* _colors[9];
-	quint8	 _inputColor;
+	zuint8	 _inputColor;
 	id	 _target;
 	SEL	 _action;
 }
-	@property (nonatomic, readonly) Q2DSize	size;
-	@property (nonatomic)		quint8	inputColor;
+	@property (nonatomic, readonly) Z2DSize	size;
+	@property (nonatomic)		zuint8	inputColor;
 	@property (nonatomic, assign)	id	target;
 	@property (nonatomic)		SEL	action;
 
-	+ (NSSize) sizeToFitFieldOfSize: (Q2DSize) size
+	+ (NSSize) sizeToFitFieldOfSize: (Z2DSize) size
 		   bubbleDiameter:	 (CGFloat) bubbleDiameter;
 
 	- (id) initWithFrame: (NSRect)	frame
-	       size:	      (Q2DSize) size;
+	       size:	      (Z2DSize) size;
 
 	- (id) initWithFrame: (NSRect) frame
 	       data:	      (NSData *) data;
 
-	- (void) prepareForSize: (Q2DSize) size;
+	- (void) prepareForSize: (Z2DSize) size;
 
 	- (NSData *) data;
 

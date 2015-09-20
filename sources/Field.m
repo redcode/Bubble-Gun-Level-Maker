@@ -8,13 +8,13 @@ Copyright © 2014-2015 Manuel Sainz de Baranda y Goñi.
 Released under the terms of the GNU General Public License v3. */
 
 #import "Field.h"
-#import <Q/functions/base/Q2DValue.h>
+#import <Z/functions/base/Z2DValue.h>
 #define Y_INCREMENT 0.866025403784439
 
-typedef Q_STRICT_STRUCTURE (
-	quint8 width;
-	quint8 height;
-	quint8 bubbles[];
+typedef Z_STRICT_STRUCTURE (
+	zuint8 width;
+	zuint8 height;
+	zuint8 bubbles[];
 ) BGL;
 
 
@@ -26,7 +26,7 @@ typedef Q_STRICT_STRUCTURE (
 
 	- (void) updateGeometry
 		{
-		qsize x, y = 0;
+		zsize x, y = 0;
 		NSPoint point;
 		Node *node = _bubbles;
 
@@ -91,7 +91,7 @@ typedef Q_STRICT_STRUCTURE (
 	@synthesize target     = _target;
 	@synthesize action     = _action;
 
-	- (Q2DSize) size {return _size;}
+	- (Z2DSize) size {return _size;}
 
 
 #	pragma mark - Overwritten
@@ -117,7 +117,7 @@ typedef Q_STRICT_STRUCTURE (
 
 
 	- (id) initWithFrame: (NSRect ) frame
-	       size:	      (Q2DSize) size
+	       size:	      (Z2DSize) size
 		{
 		if ((self = [self initWithFrame: frame]))
 			{
@@ -143,7 +143,7 @@ typedef Q_STRICT_STRUCTURE (
 
 		if ((self = [self initWithFrame: frame]))
 			{
-			[self prepareForSize: q_2d_value(SIZE)((qsize)BGL->width, (qsize)BGL->height)];
+			[self prepareForSize: z_2d_type(SIZE)((zsize)BGL->width, (zsize)BGL->height)];
 			[self updateGeometry];
 			for (index = dataSize - 2; index--;) _bubbles[index].color = BGL->bubbles[index];
 			}
@@ -179,7 +179,7 @@ typedef Q_STRICT_STRUCTURE (
 
 		if (node != NULL)
 			{
-			quint8 color = _inputColor + 1;
+			zuint8 color = _inputColor + 1;
 
 			node->color = node->color ? (node->color == color ? 0 : color) : color;
 			self.needsDisplay = YES;
@@ -235,7 +235,7 @@ typedef Q_STRICT_STRUCTURE (
 #	pragma mark - Public
 
 
-	+ (NSSize) sizeToFitFieldOfSize: (Q2DSize) size
+	+ (NSSize) sizeToFitFieldOfSize: (Z2DSize) size
 		   bubbleDiameter:	 (CGFloat) bubbleDiameter
 		{
 		return NSMakeSize
@@ -244,7 +244,7 @@ typedef Q_STRICT_STRUCTURE (
 		}
 
 
-	- (void) prepareForSize: (Q2DSize) size
+	- (void) prepareForSize: (Z2DSize) size
 		{
 		_size	 = size;
 		_bubbles = realloc(_bubbles, (size.x * size.y - size.y / 2) * sizeof(Node));
@@ -255,7 +255,7 @@ typedef Q_STRICT_STRUCTURE (
 
 	- (NSData *) data
 		{
-		qsize bubbleCount = _size.x * _size.y - _size.y / 2, index = 0;
+		zsize bubbleCount = _size.x * _size.y - _size.y / 2, index = 0;
 		NSMutableData *data = [NSMutableData dataWithLength: 2 + bubbleCount];
 		BGL *BGL = (void *)[data bytes];
 

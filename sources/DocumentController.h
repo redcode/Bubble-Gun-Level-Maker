@@ -23,7 +23,7 @@ Released under the terms of the GNU General Public License v3. */
 }
 	@property (nonatomic, readonly) NSString* filePath;
 
-	- (id) initWithFieldSize: (Q2DSize) size;
+	- (id) initWithFieldSize: (Z2DSize) size;
 
 	- (id) initWithFile: (NSString *) filePath
 	       error:	     (NSError **) error;

@@ -8,14 +8,14 @@ Copyright © 2014-2015 Manuel Sainz de Baranda y Goñi.
 Released under the terms of the GNU General Public License v3. */
 
 #import "DocumentController.h"
-#import <Q/functions/base/Q2DValue.h>
-#import <Q/macros/casting.h>
+#import <Z/functions/base/Z2DValue.h>
+#import <Z/macros/casting.h>
 
 #define kDefaultBubbleRadius 45.0
 #define kMinimumWindowWidth  360
 
-#define NS(structure) Q_CAST(Q2D, NSSize, structure)
-#define Q( structure) Q_CAST(NSSize, Q2D, structure)
+#define NS(structure) Z_CAST(NSSize, Z2D, structure)
+#define Z( structure) Z_CAST(Z2D, NSSize, structure)
 
 
 @interface NSWindow (RedCode)
@@ -121,7 +121,7 @@ Released under the terms of the GNU General Public License v3. */
 #	pragma mark - Public
 
 
-	- (id) initWithFieldSize: (Q2DSize) size
+	- (id) initWithFieldSize: (Z2DSize) size
 		{
 		if ((self = [super initWithWindowNibName: @"Document"]))
 			{
@@ -168,7 +168,7 @@ Released under the terms of the GNU General Public License v3. */
 
 		if ((self = [super initWithWindowNibName: @"Document"]))
 			{
-			Q2DSize size = field.size;
+			Z2DSize size = field.size;
 			NSRect fieldFrame;
 			fieldFrame.origin = NSZeroPoint;
 			fieldFrame.size = [Field sizeToFitFieldOfSize: size bubbleDiameter: kDefaultBubbleRadius];
@@ -238,18 +238,18 @@ Released under the terms of the GNU General Public License v3. */
 	- (NSSize) windowWillResize: (NSWindow *) window
 		   toSize:	     (NSSize	) size
 		{
-		Q2D borderSize	     = q_2d_subtract(Q(window.frame.size), Q(((NSView *)window.contentView).bounds.size));
-		Q2D maximumFieldSize = q_2d_subtract(Q(window.screen.visibleFrame.size), borderSize);
-		Q2D contentSize	     = q_2d_subtract(Q(size), borderSize);
+		Z2D borderSize	     = z_2d_subtract(Z(window.frame.size), Z(((NSView *)window.contentView).bounds.size));
+		Z2D maximumFieldSize = z_2d_subtract(Z(window.screen.visibleFrame.size), borderSize);
+		Z2D contentSize	     = z_2d_subtract(Z(size), borderSize);
 		NSSize fieldSize     = [Field sizeToFitFieldOfSize: _field.size bubbleDiameter: 1.0];
 
 		if (contentSize.y > maximumFieldSize.y) contentSize.y = maximumFieldSize.y;
 		contentSize.x = floor(fieldSize.width * contentSize.y / fieldSize.height);
 		if (contentSize.x < kMinimumWindowWidth) contentSize.x = kMinimumWindowWidth;
-		fieldSize = NS(q_2d_fit(Q(fieldSize), contentSize));
+		fieldSize = NS(z_2d_fit(Z(fieldSize), contentSize));
 		_field.frame = NSMakeRect((contentSize.x - fieldSize.width) / 2.0, 0.0, fieldSize.width, fieldSize.height);
 		[self.window.contentView setNeedsDisplay: YES];
-		return NS(q_2d_add(contentSize, borderSize));
+		return NS(z_2d_add(contentSize, borderSize));
 		}
 
 
@@ -330,9 +330,9 @@ Released under the terms of the GNU General Public License v3. */
 		{
 		NSWindow *window = self.window;
 
-		Q2DSize size = q_2d_value(SIZE)
-			((qsize)[xSizeTextField.stringValue longLongValue],
-			 (qsize)[ySizeTextField.stringValue longLongValue]);
+		Z2DSize size = z_2d_type(SIZE)
+			((zsize)[xSizeTextField.stringValue longLongValue],
+			 (zsize)[ySizeTextField.stringValue longLongValue]);
 
 
 		[NSApp endSheet: sizeInputWindow returnCode: 0];
@@ -342,9 +342,9 @@ Released under the terms of the GNU General Public License v3. */
 		[window	animateIntoScreenFrame: window.screen.visibleFrame
 			fromTopCenterToSize: [self
 				windowWillResize: window
-				toSize: NS(q_2d_add
-					(Q([Field sizeToFitFieldOfSize: size bubbleDiameter: kDefaultBubbleRadius]),
-					 q_2d_subtract(Q(window.frame.size), Q(((NSView *)window.contentView).frame.size))))]];
+				toSize: NS(z_2d_add
+					(Z([Field sizeToFitFieldOfSize: size bubbleDiameter: kDefaultBubbleRadius]),
+					 z_2d_subtract(Z(window.frame.size), Z(((NSView *)window.contentView).frame.size))))]];
 		}
 
 
