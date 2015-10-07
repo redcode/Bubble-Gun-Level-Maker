@@ -33,7 +33,7 @@ Released under the terms of the GNU General Public License v3. */
 			name:	     NSWindowWillCloseNotification
 			object:	     window];
 
-		[window makeKeyAndOrderFront: self];
+		[controller showWindow: nil];
 		}
 
 
@@ -94,7 +94,7 @@ Released under the terms of the GNU General Public License v3. */
 
 			if (path && [path isEqualToString: filePath])
 				{
-				[controller.window makeKeyAndOrderFront: self];
+				[controller showWindow: nil];
 				return NO;
 				}
 			}
