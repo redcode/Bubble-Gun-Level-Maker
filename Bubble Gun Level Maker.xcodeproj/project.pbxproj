@@ -412,6 +412,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = sources/prefix.pch;
 				INFOPLIST_FILE = "resources/property lists/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bettylab.Bubble-Gun-Level-Maker";
 				PRODUCT_NAME = "Bubble Gun Level Maker";
 				WRAPPER_EXTENSION = app;
 			};
@@ -425,6 +426,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = sources/prefix.pch;
 				INFOPLIST_FILE = "resources/property lists/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bettylab.Bubble-Gun-Level-Maker";
 				PRODUCT_NAME = "Bubble Gun Level Maker";
 				WRAPPER_EXTENSION = app;
 			};
