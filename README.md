@@ -1,5 +1,5 @@
 # Bubble Gun Level Maker
-Copyright © 2014-2015 Manuel Sainz de Baranda y Goñi.  
+Copyright © 2014-2015 Betty Lab.  
 Released under the terms of the [GNU General Public License v3](http://www.gnu.org/copyleft/gpl.html).
 
 ![alt tag](screenshots/Level 5.png)
@@ -7,11 +7,11 @@ Released under the terms of the [GNU General Public License v3](http://www.gnu.o
 It is a level editor for Bubble Gun.
 
 ### Notes
-In order to compile, you need to install the [Q API](http://github.com/redcode/Q) in _"/usr/local/include/Q"_.
+In order to compile, you need to install the [Z API](http://github.com/redcode/Z) in _"/usr/local/include/Z"_.
 
 ### History
 
-* __[v1.2](http://github.com/redcode/BubbleGun-Level-Maker/releases/tag/v1.2)__ _(2015-07-13)_
+* __[v1.2](http://github.com/BettyLab/BubbleGun-Level-Maker/releases/tag/v1.2)__ _(2015-07-13)_
 	* Adapted to the current version of Q.
 	* Fixed a bug related to the opening of documents.
 	* The field's circles are painted with borders now.

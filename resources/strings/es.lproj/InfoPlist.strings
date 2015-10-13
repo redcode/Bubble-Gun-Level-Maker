@@ -9,4 +9,4 @@ Released under the terms of the GNU General Public License v3. */
 
 CFBundleName		 = "Diseñador de Niveles de Bubble Gun";
 CFBundleDisplayName	 = "Diseñador de Niveles de Bubble Gun";
-NSHumanReadableCopyright = "© 2014-2015 Manuel Sainz de Baranda y Goñi.\nDistribuido bajo la\nGNU General Public License v3.";
+NSHumanReadableCopyright = "Copyright © 2014-2015 Betty Lab.\n\nDistribuido bajo la\nGNU General Public License v3.";
